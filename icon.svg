@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#b388ff"/>
+      <stop offset="100%" stop-color="#6c2bd9"/>
+    </linearGradient>
+  </defs>
+  <!-- Cute rounded purple background -->
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#bg)"/>
+  <!-- Dashed crop/capture frame -->
+  <rect x="26" y="30" width="76" height="68" rx="12" fill="none" stroke="#ffffff" stroke-width="5" stroke-dasharray="10 7"/>
+  <!-- Camera lens / target center -->
+  <circle cx="64" cy="64" r="18" fill="#181324" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="64" cy="64" r="7" fill="#d8bfff"/>
+  <!-- Little sparkle top-right -->
+  <path d="M96 22 L99 30 L107 33 L99 36 L96 44 L93 36 L85 33 L93 30 Z" fill="#fff0ff"/>
+</svg>
